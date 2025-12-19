@@ -1,32 +1,29 @@
-# Cogitive_Stress_Adaptive_Cyber_Defense
+# Cognitive Stress–Adaptive Cyber Defense
 
-## Dataset Availability
+This repository contains the research code and demonstration materials for the paper:
 
-This repository does **not** redistribute the CICIDS2017 dataset due to size and licensing considerations.
+**Towards Stress-Adaptive Cyber Defense: Cognitive–Physiological Synchronization in IoT Environments**
 
-Researchers can obtain the dataset directly from the Canadian Institute for Cybersecurity:
-https://www.unb.ca/cic/datasets/ids-2017.html
+The project investigates how physiological stress inference and cognitive decision modeling can be integrated into cyber-physical and Security Operations Center (SOC) workflows to enable **stress-aware, adaptive cyber defense strategies**.
 
-The provided SOC simulation modules (`src/soc/`) operate on abstracted alert streams and preprocessed feature representations derived from CICIDS2017, consistent with the evaluation protocol described in the paper.
+---
 
-## Reproducibility & Scope (Important)
+## Project Overview
 
-This repository provides research code and simulation scripts supporting the paper
-“Towards Stress-Adaptive Cyber Defense: Cognitive–Physiological Synchronization in IoT Environments.”
+Modern cyber-physical and IoT environments increasingly rely on human analysts operating under high cognitive load. This project explores a **stress-adaptive cyber defense framework** that:
 
-### What the results represent
-- Physiological stress inference is evaluated using leave-one-subject-out (LOSO) cross-validation on the WESAD dataset.
-- SOC performance results are produced via controlled, programmatic SOC simulations (including CICIDS2017-driven incident timelines) to study decision-policy behavior under stress, not via deployment in a live Security Operations Center.
+- infers operator stress from multimodal physiological signals,
+- models cognitive decision-making under stress,
+- adapts SOC response strategies accordingly,
+- evaluates system behavior under controlled simulation conditions.
 
-### Why your numbers may differ
-Exact numerical replication is not guaranteed across environments because results can vary due to:
-- stochastic training dynamics (random initialization, batching, GPU/CPU nondeterminism),
-- preprocessing / signal-windowing differences,
-- library and hardware differences,
-- simulation randomness (alert/task generation, injected stress timelines),
-- calibration and threshold selection on subject-disjoint splits.
+The framework integrates:
+- physiological signal processing,
+- machine-learning–based stress classification,
+- cognitive agents (e.g., SpeedyIBL-inspired reasoning),
+- simulated SOC environments driven by synthetic and benchmark attack traces.
 
-We therefore emphasize *comparative trends* and *behavioral effects* of the proposed CPS/UATR/SWM components rather than identical point estimates in every run.
+---
 
-### Recommended practice
-For best comparability, use the provided scripts, fixed seeds (when available), and the documented hyperparameter ranges and evaluation protocol.
+## Repository Structure
+
