@@ -1,0 +1,31 @@
+{
+  "aggregate_metrics": {
+    "low": {
+      "n_decisions": 18,
+      "mean_latency": 3.810723622639974e-05,
+      "std_latency": 1.3222681404648784e-05,
+      "mean_outcome": 0.9602180230414105,
+      "error_rate": 3.9781976958589538
+    },
+    "medium": {
+      "n_decisions": 6,
+      "mean_latency": 7.085005442301433e-05,
+      "std_latency": 4.290246475891692e-06,
+      "mean_outcome": 0.8901397256150082,
+      "error_rate": 10.98602743849918
+    }
+  },
+  "agent_stats": {
+    "total_instances": 24,
+    "instances_per_action": {
+      "MONITOR": 24,
+      "ESCALATE": 0,
+      "REDISTRIBUTE": 0,
+      "ASSIST": 0
+    },
+    "avg_activation": -1.4715437516622496,
+    "retrieval_success_rate": 23.958333333333336,
+    "n_decisions": 24,
+    "n_retrievals": 96
+  }
+}

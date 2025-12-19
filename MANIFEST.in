@@ -1,0 +1,42 @@
+# MANIFEST.in - Specifies additional files to include in distribution
+
+# Documentation
+include README.md
+include LICENSE
+include CITATION.bib
+include CHANGELOG.md
+
+# Requirements files
+include requirements.txt
+include requirements-optional.txt
+include requirements-dev.txt
+
+# Configuration files
+recursive-include src/config *.yaml *.json *.toml
+recursive-include src/skills *.md
+
+# Example scripts
+recursive-include examples *.py *.ipynb
+
+# Data (if any sample data)
+# recursive-include data/sample *.csv *.pkl
+
+# Tests
+recursive-include tests *.py
+
+# Exclude build artifacts
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *$py.class
+global-exclude *.so
+global-exclude .DS_Store
+
+# Exclude version control
+prune .git
+prune .github
+
+# Exclude IDE files
+prune .vscode
+prune .idea
+global-exclude *.swp
+global-exclude *.swo

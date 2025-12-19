@@ -1,0 +1,21 @@
+TimeWindow,TaskType,AlertType,StressLabel,StressProb,AgentDecision,ExpectedDecision,Correct
+00:00–05:00,Escalation,Suspicious Login,stress,0.85,ESCALATE,ESCALATE,True
+05:00–10:00,Correlation,Suspicious Login,stress,0.79,ESCALATE,ESCALATE,True
+10:00–15:00,Triage,Suspicious Login,baseline,0.28,MONITOR,MONITOR,True
+15:00–20:00,Reporting,Phishing Alert,baseline,0.33,MONITOR,MONITOR,True
+20:00–25:00,Triage,Malware Detected,baseline,0.24,MONITOR,MONITOR,True
+25:00–30:00,Escalation,Malware Detected,stress,0.78,ESCALATE,ESCALATE,True
+30:00–35:00,Reporting,Suspicious Login,baseline,0.33,MONITOR,MONITOR,True
+35:00–40:00,Correlation,Phishing Alert,stress,0.88,ESCALATE,ESCALATE,True
+40:00–45:00,Correlation,Phishing Alert,stress,0.75,ESCALATE,ESCALATE,True
+45:00–50:00,Escalation,Malware Detected,stress,0.85,ESCALATE,ESCALATE,True
+50:00–55:00,Correlation,Phishing Alert,stress,0.75,ESCALATE,ESCALATE,True
+55:00–60:00,Reporting,Malware Detected,baseline,0.23,MONITOR,MONITOR,True
+60:00–65:00,Escalation,Malware Detected,stress,0.82,ESCALATE,ESCALATE,True
+65:00–70:00,Reporting,Malware Detected,baseline,0.15,MONITOR,MONITOR,True
+70:00–75:00,Escalation,Malware Detected,stress,0.63,MONITOR,ESCALATE,False
+75:00–80:00,Triage,Suspicious Login,baseline,0.22,MONITOR,MONITOR,True
+80:00–85:00,Reporting,Suspicious Login,baseline,0.2,MONITOR,MONITOR,True
+85:00–90:00,Escalation,Phishing Alert,stress,0.83,ESCALATE,ESCALATE,True
+90:00–95:00,Triage,Benign Traffic,baseline,0.2,MONITOR,MONITOR,True
+95:00–100:00,Correlation,Benign Traffic,stress,0.66,ESCALATE,ESCALATE,True

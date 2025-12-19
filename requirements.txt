@@ -1,0 +1,59 @@
+# Core Dependencies
+# ==================
+
+# Scientific computing
+numpy>=1.21.0,<2.0.0
+pandas>=1.3.0,<3.0.0
+scipy>=1.7.0,<2.0.0
+
+# Machine learning
+scikit-learn>=1.0.0,<2.0.0
+xgboost>=1.5.0,<3.0.0
+tensorflow>=2.8.0,<3.0.0
+
+# Signal processing
+neurokit2>=0.1.7,<1.0.0
+
+# Visualization
+matplotlib>=3.4.0,<4.0.0
+seaborn>=0.11.0,<1.0.0
+
+# Utilities
+tqdm>=4.62.0
+psutil>=5.8.0
+
+
+# Optional Dependencies
+# =====================
+# Install with: pip install -r requirements-optional.txt
+
+# Temporal reasoning (HMM)
+# hmmlearn>=0.2.7
+# statsmodels>=0.13.0
+
+# Advanced signal processing
+# pywavelets>=1.3.0
+# emd>=0.5.0
+
+# Deep learning extras
+# tensorflow-addons>=0.17.0
+# keras-tuner>=1.1.0
+
+
+# Development Dependencies
+# =========================
+# Install with: pip install -r requirements-dev.txt
+
+# Testing
+# pytest>=7.0.0
+# pytest-cov>=3.0.0
+
+# Code formatting
+# black>=22.0.0
+# flake8>=4.0.0
+# isort>=5.10.0
+# mypy>=0.950
+
+# Interactive
+# jupyter>=1.0.0
+# ipython>=8.0.0

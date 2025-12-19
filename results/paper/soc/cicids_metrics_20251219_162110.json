@@ -1,0 +1,24 @@
+{
+  "aggregate_metrics": {
+    "low": {
+      "n_decisions": 5,
+      "mean_latency": 2.55584716796875e-05,
+      "std_latency": 1.3852919622739745e-06,
+      "mean_outcome": 0.859940164,
+      "error_rate": 14.005983600000004
+    }
+  },
+  "agent_stats": {
+    "total_instances": 5,
+    "instances_per_action": {
+      "MONITOR": 5,
+      "ESCALATE": 0,
+      "REDISTRIBUTE": 0,
+      "ASSIST": 0
+    },
+    "avg_activation": -0.5326943677453478,
+    "retrieval_success_rate": 20.0,
+    "n_decisions": 5,
+    "n_retrievals": 20
+  }
+}
