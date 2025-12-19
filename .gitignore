@@ -34,3 +34,13 @@ outputs/models/*.pkl
 # OS
 .DS_Store
 Thumbs.db
+
+# Generated results
+results/
+outputs/
+logs/
+
+# Generated results
+results/
+outputs/
+logs/
