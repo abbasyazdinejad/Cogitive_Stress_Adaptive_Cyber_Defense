@@ -1,5 +1,14 @@
 # Cogitive_Stress_Adaptive_Cyber_Defense
 
+## Dataset Availability
+
+This repository does **not** redistribute the CICIDS2017 dataset due to size and licensing considerations.
+
+Researchers can obtain the dataset directly from the Canadian Institute for Cybersecurity:
+https://www.unb.ca/cic/datasets/ids-2017.html
+
+The provided SOC simulation modules (`src/soc/`) operate on abstracted alert streams and preprocessed feature representations derived from CICIDS2017, consistent with the evaluation protocol described in the paper.
+
 ## Reproducibility & Scope (Important)
 
 This repository provides research code and simulation scripts supporting the paper
